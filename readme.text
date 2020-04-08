@@ -1,0 +1,29 @@
+End point url
+
+Post: localhost:8080/bank
+{
+    "Account_Number" :100,
+    "name": "Soap",
+    "custName": "Lux",
+    "pan": "Lux",
+    "aadhar" :"JKL",
+    "mobileNumber": 9876898762,
+    "ifscCode": "Lux",
+    "branch": "Lux"
+}
+
+Post:localhost:8080/product
+
+{
+    "productId" :100,
+    "productName": "Soap",
+    "produtDescription": "Lux"
+}
+
+Post:localhost:8080/employee
+
+{
+    "name" :"test",
+    "firstName": "lokesh",
+    "lastName": "gupta",
+    "band": "5v"
